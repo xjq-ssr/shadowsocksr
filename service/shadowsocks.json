@@ -1,0 +1,15 @@
+{
+ "server":"test.xjqpro.com",
+ "server_ipv6":"::",
+ "server_port":2333,
+ "local_address":"127.0.0.1",
+ "local_port":1080,
+ "password":"",
+ "timeout":300,
+ "udp_timeout":60,
+ "method":"aes-128-ctr",
+ "protocol":"origin",
+ "protocol_param":"",
+ "fast_open":false,
+ "workers":1
+}

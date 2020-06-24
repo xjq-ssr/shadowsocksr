@@ -1,0 +1,10 @@
+[Unit]
+Description=ssr-client
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash /opt/shadowsocksr/service/start.sh
+ExecReload=/bin/bash /opt/shadowsocksr/service/restart.sh
+ExecStop=/bin/bash /opt/shadowsocksr/service/stop.sh
+[Install]
+WantedBy=graphical.target
